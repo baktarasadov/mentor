@@ -1,0 +1,13 @@
+/* .nadir {
+  color: rgb(46, 165, 42);
+  font-size: 10px;
+} */
+
+img {
+  width: 100%;
+  height: 300px;
+}
+section {
+  width: 90%;
+  margin: 0 auto;
+}
