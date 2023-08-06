@@ -1,0 +1,65 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 30%;
+  margin: 0 auto;
+  background-color: #87ceeb;
+  margin-top: 50px;
+  height: 400px;
+}
+
+.todoContext {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#todoText {
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#btnAdd {
+  border-radius: 5px;
+  padding: 5px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.a {
+  background-color: red;
+}
+
+.newTodoText {
+  background-color: #87ceeb;
+}
+
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnDelete {
+  border-radius: 5px;
+  padding: 5px;
+  width: 70px;
+  cursor: pointer;
+}
