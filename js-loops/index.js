@@ -45,10 +45,57 @@
 
 // console.log(cem);
 
-let length = 0;
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 12, 23];
-while (true) {
-  if (!array[length]) break;
-  length++;
+// let length = 0;
+// const array = "  salama Azerbaycn ok       ";
+// while (true) {
+//   if (!array[length]) break;
+//   length++;
+// }
+// console.log(array.charCodeAt());
+// console.log(!!array);
+// const removeTrim = [];
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i] !== " ") break;
+//   removeTrim.push(array[i]);
+// }
+// for (let i = array.length - 1; i > 0; i--) {
+//   if (array[i] !== " ") break;
+//   removeTrim.push(array[i]);
+// }
+
+// let newString = "";
+
+// console.log(array.length);
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i] === removeTrim[i]) continue;
+//   newString += array[i];
+// }
+
+// console.log(newString.length);
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8];
+// var eded = prompt("zehmet olmasa ededi daxil edin:");
+// for (var i = 0; i < array.length; i++) {
+//   if (eded == array[i]) {
+//     alert("eded movcutdur");
+//     break;
+//   }
+// }
+
+const array = ["Zaur", "Elcan", "Togrul", "eziz", "Bekter"];
+const array2 = [];
+// for (let i = 0; i < array.length; i++) {
+//   var string = array[i];
+//   var sonuncuHerf = string[string.length - 1];
+//   if (sonuncuHerf == "r") {
+//     array2.push(string);
+//   }
+// }
+
+for (var element of array) {
+  if (element.slice(-1) == "r") {
+    array2.push(element);
+  }
 }
-console.log(length);
+console.log(array2);
+var alma = "Alma";

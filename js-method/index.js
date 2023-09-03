@@ -1,7 +1,7 @@
 // length
 
 // let length = 0;
-// const array = [1, 2, 3, 4, 5, 6, 7, 8, 12, 23];
+// const array = 'Alma';
 // while (true) {
 //   if (!array[length]) break;
 //   length++;
@@ -17,3 +17,6 @@
 //   size--;
 // }
 // console.log(copy);
+
+// toLowerCase
+// console.log(String.fromCharCode(array.charCodeAt() - 32));

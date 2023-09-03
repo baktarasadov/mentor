@@ -57,14 +57,14 @@
 
 // var a = null;
 // console.log(a / 5);
-// function splitAndMerge(string, separator) {
-//   let newString = "";
-//   for (const element of string.split("")) {
-//     newString += `${separator}${element}`;
-//   }
-//   return newString.split(`${separator} ${separator}`).join(" ").substring(1);
-// }
-// console.log(splitAndMerge("My name is John", "."));
+function splitAndMerge(string, separator) {
+  let newString = "";
+  for (const element of string.split("")) {
+    newString += `${separator}${element}`;
+  }
+  return newString.split(`${separator} ${separator}`).join(" ").substring(1);
+}
+console.log(splitAndMerge("My name is John", "."));n bvc ccc
 
 // const split = [];
 // const property = "Azer";
